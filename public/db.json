@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Hamburguer",
+    "category": "Sanduíches",
+    "price": 14.00,
+    "img": "https://i.ibb.co/fpVHnZL/hamburguer.png" 
+  },
+  {
+    "id": 2,
+    "name": "X-Burguer",
+    "category": "Sanduíches",
+    "price": 16.00,
+    "img": "../src/assets/Hamburguer.png" 
+  },
+  {
+    "id": 3,
+    "name": "Big Kenzie",
+    "category": "Sanduíches",
+    "price": 18.00,
+    "img": "../src/assets/Hamburguer.png"  
+  },
+  {
+    "id": 4,
+    "name": "Fanta Guaraná",
+    "category": "Bebidas",
+    "price": 5.00,
+    "img": "https://i.ibb.co/cCjqmPM/fanta-guarana.png" 
+  },
+  {
+    "id": 5,
+    "name": "Coca-Cola",
+    "category": "Bebidas",
+    "price": 7.00,
+    "img": "https://i.ibb.co/fxCGP7k/coca-cola.png"
+  },
+  {
+    "id": 6,
+    "name": "McShake Ovomaltine",
+    "category": "Bebidas",
+    "price": 10.00,
+    "img": "https://i.ibb.co/QNb3DJJ/mc-shake-ovomaltine.png" 
+  }
+]

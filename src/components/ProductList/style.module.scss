@@ -1,0 +1,19 @@
+/* src/components/ProductList/style.module.scss */
+@import '../../styles/variables';
+
+.productList {
+    display: flex;
+    gap: 1.25rem;
+    padding: 1rem;
+    overflow-x: auto;
+
+
+    @media (min-width: 769px) {
+        flex-wrap: wrap;
+        overflow-x: visible;
+        justify-content: flex-start;
+
+        max-width: 1200px;
+        margin: 2rem auto; 
+    }
+}

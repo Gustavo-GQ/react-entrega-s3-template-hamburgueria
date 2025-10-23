@@ -1,0 +1,49 @@
+@import '../../styles/variables';
+
+.header {
+    background-color: $gray-0;
+    padding: 1.25rem 1rem;
+}
+
+.headerContent {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;     
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartButton {
+    position: relative; 
+    color: $gray-300;   
+
+    &:hover {
+        color: $gray-600;
+    }
+}
+
+.cartCounter {
+    position: absolute; 
+    top: -10px;
+    right: -10px;
+
+    background-color: $color-primary;
+    color: $gray-0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+
+    font-size: $font-size-6;
+    font-weight: $font-weight-bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.searchForm {
+    display: none;
+}
